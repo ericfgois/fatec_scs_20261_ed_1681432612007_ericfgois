@@ -1,0 +1,163 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0 (Edition std-2)" version="29.6.6">
+  <diagram name="Página-1" id="etAQfLKpocGoufP4k4Hx">
+    <mxGraphModel dx="3445" dy="1990" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-1" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontStyle=1;fontSize=14;" value="Início: Lê a entrada do usuário" vertex="1">
+          <mxGeometry height="63" width="231" x="211" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=14;" value="Separa o texto em uma Lista de Tokens" vertex="1">
+          <mxGeometry height="78" width="260" x="196" y="133" as="geometry" />
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-3" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontStyle=1;fontSize=14;" value="A lista tem&#xa;mais de 4 itens?" vertex="1">
+          <mxGeometry height="192" width="192" x="230" y="261" as="geometry" />
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-4" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontStyle=1;fontSize=14;" value="Fim: Mostra erro de limite excedido" vertex="1">
+          <mxGeometry height="53" width="231" x="50" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-5" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontStyle=1;fontSize=14;" value="Existem tokens&#xa;para ler?" vertex="1">
+          <mxGeometry height="186" width="186" x="470" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=14;" value="Lê o próximo Token" vertex="1">
+          <mxGeometry height="54" width="199" x="150" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-7" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontStyle=1;fontSize=14;" value="É um Operador&#xa;+, -, *, / ?" vertex="1">
+          <mxGeometry height="185" width="185" x="157" y="891" as="geometry" />
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=14;" value="Converte para Número" vertex="1">
+          <mxGeometry height="54" width="222" x="138.5" y="1169" as="geometry" />
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=14;" value="LIFO PUSH: Adiciona ao topo da Pilha" vertex="1">
+          <mxGeometry height="78" width="260" x="310" y="1432" as="geometry" />
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-10" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontStyle=1;fontSize=14;" value="A pilha tem pelo&#xa;menos 2 números?" vertex="1">
+          <mxGeometry height="209" width="209" x="640" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-11" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontStyle=1;fontSize=14;" value="Fim: Erro, faltam números para a conta" vertex="1">
+          <mxGeometry height="63" width="231" x="520" y="1580" as="geometry" />
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=14;" value="LIFO POP: Tira o topo para variável B" vertex="1">
+          <mxGeometry height="78" width="260" x="908" y="1432" as="geometry" />
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-13" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=14;" value="LIFO POP: Tira o novo topo para variável A" vertex="1">
+          <mxGeometry height="78" width="260" x="908" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-14" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=14;" value="Faz a conta: A operador B" vertex="1">
+          <mxGeometry height="54" width="244" x="916" y="1688" as="geometry" />
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-15" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=14;" value="LIFO PUSH: Adiciona Resultado na Pilha" vertex="1">
+          <mxGeometry height="78" width="260" x="908" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-16" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontStyle=1;fontSize=14;" value="Fim: Retorna a Pilha Final" vertex="1">
+          <mxGeometry height="39" width="210" x="270" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-17" edge="1" parent="1" source="UqGvVei4qPrRNw3MuNLn-1" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontStyle=1;fontSize=14;" target="UqGvVei4qPrRNw3MuNLn-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-18" edge="1" parent="1" source="UqGvVei4qPrRNw3MuNLn-2" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontStyle=1;fontSize=14;" target="UqGvVei4qPrRNw3MuNLn-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-19" edge="1" parent="1" source="UqGvVei4qPrRNw3MuNLn-3" style="startArrow=none;endArrow=block;exitX=0;exitY=0.5;rounded=0;exitDx=0;exitDy=0;entryX=0.472;entryY=-0.057;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=1;fontSize=14;" target="UqGvVei4qPrRNw3MuNLn-4" value="Sim">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="159" y="357" />
+            </Array>
+            <mxPoint x="160" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-20" edge="1" parent="1" source="UqGvVei4qPrRNw3MuNLn-3" style="startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fontStyle=1;fontSize=14;" target="UqGvVei4qPrRNw3MuNLn-5" value="Não">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="563" y="357" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-21" edge="1" parent="1" source="UqGvVei4qPrRNw3MuNLn-5" style="startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=0.5;entryY=-0.01;rounded=0;exitDx=0;exitDy=0;fontStyle=1;fontSize=14;" target="UqGvVei4qPrRNw3MuNLn-6" value="Sim">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="533" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-22" edge="1" parent="1" source="UqGvVei4qPrRNw3MuNLn-6" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;fontStyle=1;fontSize=14;" target="UqGvVei4qPrRNw3MuNLn-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-23" edge="1" parent="1" source="UqGvVei4qPrRNw3MuNLn-7" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontStyle=1;fontSize=14;" target="UqGvVei4qPrRNw3MuNLn-8" value="Não (É Número)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-24" edge="1" parent="1" source="UqGvVei4qPrRNw3MuNLn-8" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.5;rounded=0;entryDx=0;entryDy=0;fontStyle=1;fontSize=14;" target="UqGvVei4qPrRNw3MuNLn-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="1470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-25" edge="1" parent="1" source="UqGvVei4qPrRNw3MuNLn-9" style="startArrow=none;endArrow=block;entryX=0.5;entryY=1;rounded=0;entryDx=0;entryDy=0;exitX=0.973;exitY=0.026;exitDx=0;exitDy=0;exitPerimeter=0;fontStyle=1;fontSize=14;" target="UqGvVei4qPrRNw3MuNLn-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="1430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-26" edge="1" parent="1" source="UqGvVei4qPrRNw3MuNLn-7" style="startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;fontStyle=1;fontSize=14;" target="UqGvVei4qPrRNw3MuNLn-10" value="Sim (É Operador)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="745" y="984" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-27" edge="1" parent="1" source="UqGvVei4qPrRNw3MuNLn-10" style="startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;fontStyle=1;fontSize=14;" target="UqGvVei4qPrRNw3MuNLn-11" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-28" edge="1" parent="1" source="UqGvVei4qPrRNw3MuNLn-10" style="startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;fontStyle=1;fontSize=14;" target="UqGvVei4qPrRNw3MuNLn-12" value="Sim">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="1155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-29" edge="1" parent="1" source="UqGvVei4qPrRNw3MuNLn-12" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontStyle=1;fontSize=14;" target="UqGvVei4qPrRNw3MuNLn-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-30" edge="1" parent="1" source="UqGvVei4qPrRNw3MuNLn-13" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontStyle=1;fontSize=14;" target="UqGvVei4qPrRNw3MuNLn-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-31" edge="1" parent="1" source="UqGvVei4qPrRNw3MuNLn-14" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;fontStyle=1;fontSize=14;" target="UqGvVei4qPrRNw3MuNLn-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-32" edge="1" parent="1" source="UqGvVei4qPrRNw3MuNLn-15" style="startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=1;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fontStyle=1;fontSize=14;" target="UqGvVei4qPrRNw3MuNLn-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1230" y="1839" />
+              <mxPoint x="1230" y="1770" />
+              <mxPoint x="1230" y="1680" />
+              <mxPoint x="1230" y="1520" />
+              <mxPoint x="1230" y="1190" />
+              <mxPoint x="1230" y="533" />
+            </Array>
+            <mxPoint x="1212" y="1839" as="sourcePoint" />
+            <mxPoint x="700" y="533" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UqGvVei4qPrRNw3MuNLn-33" edge="1" parent="1" source="UqGvVei4qPrRNw3MuNLn-5" style="startArrow=none;endArrow=block;exitX=0.199;exitY=0.715;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;exitPerimeter=0;fontStyle=1;fontSize=14;" target="UqGvVei4qPrRNw3MuNLn-16" value="Não">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="573" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
