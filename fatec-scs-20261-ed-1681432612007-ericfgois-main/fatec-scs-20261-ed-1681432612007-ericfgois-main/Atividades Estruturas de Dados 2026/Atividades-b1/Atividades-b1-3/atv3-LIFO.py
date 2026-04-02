@@ -64,7 +64,6 @@ def calculadora(entrada):
             except ValueError:
                 return f"Erro: O item '{token}' não é um número válido."
 
-        # Requisito Obrigatório: Exibir memórias X, Y, Z e T a cada passo
         # Mapeando os 4 últimos itens da lista para simular os registradores da HP12c.
         t = pilha[-4] if len(pilha) >= 4 else 0.0
         z = pilha[-3] if len(pilha) >= 3 else 0.0
