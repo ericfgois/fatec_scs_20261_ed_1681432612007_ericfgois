@@ -1,3 +1,13 @@
+'''
+*----------------------------------------------------------*
+* Fatec Antônio Russo - São Caetano do Sul                 *
+* Exemplo de Manipulação de Filas                          *
+* Autor: Eric Fracassi de Gois                             *
+* Objetivo: Mostrar manipulação de filas em python.        *
+* Data: 30/04/2026                                         *
+*----------------------------------------------------------*
+'''
+
 class No:
     def __init__(self, nome_arq, paginas):
         self.nome_arq = nome_arq

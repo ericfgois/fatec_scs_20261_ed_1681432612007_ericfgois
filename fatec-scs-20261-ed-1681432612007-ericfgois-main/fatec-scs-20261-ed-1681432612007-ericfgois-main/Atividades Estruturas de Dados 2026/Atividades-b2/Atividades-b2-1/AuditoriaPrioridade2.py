@@ -1,6 +1,7 @@
 # ─────────────────────────────────────────────────────────
 # EQUIPE 09 + EQUIPE 10 - Sistema Completo
 # Cadastro de Solicitantes + Auditoria de Prioridade
+# Eric Fracassi de Gois
 # ─────────────────────────────────────────────────────────
 class Cidadao:
     def __init__(self, id_protocolo, nome, idade, pcd):
